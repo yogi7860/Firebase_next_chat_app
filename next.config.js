@@ -3,6 +3,9 @@ require("dotenv").config({
 })
 
 module.exports = {
+  images: {
+    domains: ['lh3.googleusercontent.com'],
+  },
   reactStrictMode: true,
   env: process.env.NODE_ENV
 }
